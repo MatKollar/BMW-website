@@ -261,6 +261,30 @@ h3{
  }
 
 
+/*----------Contact me ----------*/
+.contact{
+    margin: 80px auto;
+    width: 65%;
+    height: 350px;
+    background-image: linear-gradient(rgba(24, 22, 22, 0.7),rgba(24,22,22,0.7)), url(images/banner2.jpg);
+    /*Source: https://www.bmw.com.co/content/dam/bmw/common/all-models/m-series/m235i/2019/Inspire/bmw-2-series-gran-coupe-content-teaser-medium-inspire-mp-02.jpg  */
+    background-position: center;
+    background-size: cover;
+    border-radius: center;
+    text-align: center;
+    padding: 100px 0;
+}
+.contact h1{
+    color: #fff;
+    margin-bottom: 50px;
+    padding:0px;
+}
+
+@media(max-width: 700px){
+    .contact h1{
+        font-size: 24px;
+    }
+}
 
 /*---------------------Footer----------------------*/
 .footer{
@@ -268,4 +292,13 @@ h3{
     text-align: center;
     padding: 30px 0;
 }
-
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight:600;
+}
+.icons .fab{
+    margin: 0 10px;
+    cursor: pointer;
+    padding: 18px 0;
+}
