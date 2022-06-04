@@ -1,0 +1,74 @@
+/*---------M3 page---------------*/
+.sub-headerm3{
+    height:50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/m3.png);
+    /* Source: https://wall.alphacoders.com/big.php?i=1103987 */
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-headerm3 h1{
+    margin-top: 100px;
+}
+.m3{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.m3-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.m3-col img{
+    width: 100%;
+}
+.m3-col h1{
+    padding-top: 0;
+}
+.m3-col p{
+    padding: 15px 0 25px;
+}
+.red-btn{
+    border: 2px solid #00ac17;
+    background: transparent;
+    color: #00ac17;
+    font-size: 15px;
+}
+.red-btn:hover{
+    color: #fff;
+    background: #00ac17;
+    border: 2px solid #00ac17;
+}
+
+/*------------M4 page ----------------*/
+.sub-headerm4{
+    height:50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/m4.png);
+    /* Source: http://www.newcarcars.com/hd57939/2021_bmw_m4_coupe_competition/ */
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-headerm4 h1{
+    margin-top: 100px;
+}
+
+/*-----------M5 page-----------------*/
+.sub-headerm5{
+    height:50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/m5.png);
+    /*Source: https://www.google.com/url?sa=i&url=https%3A%2F%2Ftopgear.com.sg%2Fnews%2Fthe-new-bmw-m5-cs-is-the-most-powerful-m-car-ever&psig=AOvVaw0gBtEKLb55GyQBo6RzBUJo&ust=1640948562396000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIj65vavi_UCFQAAAAAdAAAAABBG*/
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-headerm5 h1{
+    margin-top: 100px;
+}

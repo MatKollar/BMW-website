@@ -1,0 +1,30 @@
+.cursor-inner {
+    position: fixed;
+    z-index: 100;
+    width: 10px;
+    height: 10px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    pointer-events: none;
+    transition: transform .5s;   
+}
+.cursor-outer{
+    position: fixed;
+    z-index: 100;
+    width: 30px;
+    height: 30px;
+    color: black;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    border-radius: 50%;
+    pointer-events: none;
+    transition: transform .5s;
+}
+.content:hover ~ .cursor-inner {
+    transform: translate(-50%, -50%) scale(5);
+}
+.content:hover ~ .cursor-outer{
+    transform: translate(-50%, -50%) scale(1.5);
+}

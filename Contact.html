@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>BMW website</title>
+        <link rel="stylesheet" href="contact.css">
+        <link href="styles.css" rel="stylesheet">
+        <link href="cursor.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="cursor-inner"></div>
+        <div class="cursor-outer"></div>
+        <div class="sub-header_contact">
+            <nav>
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <ul>
+                        <li><a href="index.html#home">HOME</a></li>
+                        <li><a href="index.html#about">ABOUT</a></li>
+                        <li><a href="index.html#cars">CARS</a></li>
+                        <li><a href="Contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <h1>Contact Me</h1>
+        </div>
+
+        <!--       Contact Me content             -->
+        <div class="location">
+           <iframe width="1080" height="473" id="gmap_canvas" src="https://maps.google.com/maps?q=Nitra%20Slovakia%20&t=&z=5&ie=UTF8&iwloc=&output=embed"></iframe>
+        </div>
+
+        <section class="contact-me">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <div>
+                            <h5>Slovakia</h5>
+                            <p>Vinohradnícka 9</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <h5>+421 903069454</h5>
+                            <p>Monday to Friday, 10AM to 20PM</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <h5>matej.kollar3@gmail.com</h5>
+                            <p>Email me for more info</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <form method="post">
+                        <input type="text" name="name" placeholder="Enter your name" required>
+                        <input type="email" name="email" placeholder="Enter your email address" required>
+                        <input type="text" name="subject" placeholder="Enter your subject" required>
+                        <textarea rows="8" name="message" placeholder="Message"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    <!--           Footer          -->
+    <footer class="footer">
+        <p>Made by Matej Kollar</p>
+    </footer>
+
+    <!--     JavaScript         -->
+    <script src="./script.js"></script>
+
+    </body>
+</html>
