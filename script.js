@@ -9,5 +9,4 @@ function cursorMoving(e) {
 
     cursorOuter.style.top = e.clientY + "px"
     cursorOuter.style.left = e.clientX + "px"
-
 }
