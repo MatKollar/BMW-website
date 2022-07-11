@@ -10,6 +10,7 @@
     pointer-events: none;
     transition: transform .5s;   
 }
+
 .cursor-outer{
     position: fixed;
     z-index: 100;
@@ -22,9 +23,11 @@
     pointer-events: none;
     transition: transform .5s;
 }
+
 .content:hover ~ .cursor-inner {
     transform: translate(-50%, -50%) scale(5);
 }
+
 .content:hover ~ .cursor-outer{
     transform: translate(-50%, -50%) scale(1.5);
 }
